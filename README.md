@@ -19,7 +19,7 @@ Experimentally, our method can achieve fast and high-quality dynamic scene recon
 ## 🚀 Network
 
 <div align="center">
-<img width="800" alt="image" src="figs/network.png">
+<img width="800" alt="image" src="fig/network.png">
 </div>
 
 ## 🚀 Setup
