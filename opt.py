@@ -5,7 +5,7 @@ def config_parser(cmd=None):
     parser.add_argument('--config',        is_config_file=True)
     parser.add_argument("--expname",       type=str,  default='')
     parser.add_argument("--savedir",       type=str,  default='./log')
-    parser.add_argument("--ckpt",          type=str,  default='/data12T/ykz0923/Exp/multi_view_part/TNeRF_cluster_3_6D_9_6_final/log/(bouncingballs)--20240503-171803/(bouncingballs)-_38.18404246001251.th')
+    parser.add_argument("--ckpt",          type=str,  default='')
     parser.add_argument("--add_timestamp", type=int,  default=0)
     parser.add_argument("--seed",          type=int,  default=0)
 
@@ -22,7 +22,7 @@ def config_parser(cmd=None):
 
     # data setting
     parser.add_argument("--data_type",         type=str,   default='blender')
-    parser.add_argument("--data_dir",          type=str,   default='./data/nerf_synthetic_time/bouncingballs/')
+    parser.add_argument("--data_dir",          type=str,   default='./data/bouncingballs/')
     parser.add_argument("--N_vis",             type=int,   default=-1)
     parser.add_argument('--downsample_train',  type=float, default=2.0)
     parser.add_argument('--downsample_test',   type=float, default=2.0)
