@@ -80,7 +80,7 @@ def config_parser(cmd=None):
     # network parameters
     parser.add_argument("--num_voxels_motn", type=int, default=50**3)
     parser.add_argument("--pg_scale_motn",   type=int, action="append", default=[])
-    parser.add_argument("--num_voxels_feat", type=int, default=100**3)
+    parser.add_argument("--num_voxels_feat", type=int, default=160**3)
     parser.add_argument("--pg_scale_feat",   type=int, action="append", default=[4000, 6000, 8000])
 
     parser.add_argument("--skip_zero_grad",  type=str, action="append", default=['featgrid', 'backgrid', 'forwgrid'])
